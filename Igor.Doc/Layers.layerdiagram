@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="07aaa0b8-58fb-44d6-8c4f-3c28d47f720b" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="b25ccfa5-c424-43e2-b3a1-90ec999dcbf0" name="UI">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="2560f4b9-910a-4bb4-9ce3-25d0629d5fdb" direction="Forward">
+          <layerMoniker Id="5869a34b-b8f7-484d-b4e5-57a50aff1f25" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="a180cab0-a364-4afc-90db-7958fec827ce" name="console.UI" />
+        <layer Id="c9579195-076b-4fb5-9d72-c98a7a9fd939" name="wpf.UI" />
+        <layer Id="93cedf39-0b59-4bca-a75b-718514a24b96" name="cocoa.UI" />
+      </childLayers>
+    </layer>
+    <layer Id="5869a34b-b8f7-484d-b4e5-57a50aff1f25" name="Core">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="90a913e2-83e7-4c28-b4b0-835ef41d182d" direction="Forward">
+          <layerMoniker Id="590ef4f5-4e1f-4943-a3d3-fad3f8cbbd27" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="590ef4f5-4e1f-4943-a3d3-fad3f8cbbd27" name="Persistence" />
+  </layers>
+</layerModel>
